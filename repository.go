@@ -1,11 +1,11 @@
 package users
 
 import (
-	. "github.com/sogko/slumber-users/domain"
+	. "github.com/grsouza/slumber-users/domain"
 
 	"errors"
 	"fmt"
-	"github.com/sogko/slumber/domain"
+	"github.com/grsouza/slumber/domain"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"log"

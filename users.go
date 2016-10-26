@@ -1,7 +1,7 @@
 package users
 
 import (
-	"github.com/sogko/slumber/domain"
+	"github.com/grsouza/slumber/domain"
 	"github.com/twinj/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/mgo.v2/bson"
