@@ -1,7 +1,7 @@
 package users
 
 import (
-	"github.com/grsouza/slumber/domain"
+	"github.com/sogko/slumber/domain"
 )
 
 type IUserRepositoryFactory interface {

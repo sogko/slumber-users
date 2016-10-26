@@ -1,9 +1,9 @@
 package users
 
 import (
-	. "github.com/grsouza/slumber-users/domain"
+	. "github.com/sogko/slumber-users/domain"
 
-	"github.com/grsouza/slumber/domain"
+	"github.com/sogko/slumber/domain"
 	"net/http"
 )
 
