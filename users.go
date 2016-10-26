@@ -1,12 +1,13 @@
 package users
 
 import (
+	"strings"
+	"time"
+
 	"github.com/sogko/slumber/domain"
 	"github.com/twinj/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/mgo.v2/bson"
-	"strings"
-	"time"
 )
 
 // User statuses
@@ -87,7 +88,7 @@ func (user *User) GenerateConfirmationCode() {
 // generateNewUniqueCode generates a new confirmation code
 func generateNewUniqueCode() string {
 	// set code format
-	uuid.SwitchFormat(uuid.Clean)
+	uuid.SwitchFormat(uuid.FormatCanonical)
 	return uuid.NewV4().String()
 }
 
